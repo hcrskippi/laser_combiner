@@ -15,8 +15,8 @@ private:
 
 
 Combiner::Combiner(ros::NodeHandle n){
-	this->leftPub = n.advertise<std_msgs::LaserScan>("kerbDetectLeft", 1000);
-	this->rightPub = n.advertise<std_msgs::LaserScan>("kerbDetectRight", 1000);
+	this->leftPub = n.advertise<sensor_msgs::LaserScan>("kerbDetectLeft", 1000);
+	this->rightPub = n.advertise<sensor_msgs::LaserScan>("kerbDetectRight", 1000);
 }
 
 

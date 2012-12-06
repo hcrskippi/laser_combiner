@@ -1,0 +1,17 @@
+<package>
+  <description brief="laser_combiner">
+
+     laser_combiner
+
+  </description>
+  <author>Farhan</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/laser_combiner</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+
